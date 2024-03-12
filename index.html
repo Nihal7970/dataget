@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Example</title>
+  </head>
+  <body>
+    <h1>GET and POST Form Example</h1>
+    <form action="/getForm" method="get">
+      <label for="getInput">GET Method Input:</label>
+      <input type="text" id="getInput" name="getParam" />
+      <button type="submit">Submit GET</button>
+    </form>
+    <form action="/postForm" method="post">
+      <label for="postInput">POST Method Input:</label>
+      <input type="text" id="postInput" name="postParam" />
+      <button type="submit">Submit POST</button>
+    </form>
+  </body>
+  <script src="index.js"></script>
+</html>
